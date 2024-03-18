@@ -1,0 +1,3 @@
+The Library Management System uses MariaDB in order to persist data. In order to run this application, the developer needs to have MariaDB or MySQL installed. The developer must run the the initalize script: InitializeLibraryDb_AutoGenScript.sql in their local db instance to create the database and seed data.
+
+As mentioned in the application .readme file, the node.js application's .env file must be updated to match the local db instance including the DB_HOST, DB_USER, DB_PASS, DB_NAME, and DB_PORT.
